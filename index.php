@@ -13,12 +13,9 @@
 		window.onload = function() {
 			var settings = {
 				flash_url : "Flash/SWFUpload.swf",
-				upload_url: "http://upd1.ajkimg.com/upload-haozu",
                                 img_max_width:640,
                                 img_max_size:1,
-                                //upload_url:"upload2.php",
-                                //upload_url:"http://img1u.soufun.com/upload/rent",
-// 
+                                upload_url:"upload2.php",
 				post_params: {"PHPSESSID" : "<?php echo session_id(); ?>"},
 				file_size_limit : "100 MB",
 				file_types : "*.*",
