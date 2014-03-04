@@ -6,3 +6,7 @@ upload_fast
 3.合理利用带宽，加速上传
 4.异步压缩
 5.完美的js调用
+
+
+记得
+crossdomain.xml
